@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.prayan_it.nari">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".setRemainder" />
+        <activity android:name=".BeforebirthActivity" />
+        <activity android:name=".AfterbirthActivity" />
+        <activity android:name=".TikaActivity" />
+        <activity android:name=".KhaddhoActivity" />
+        <activity android:name=".GorvokalinActivity" />
+        <activity android:name=".BiyamActivity" />
+        <activity android:name=".JogajogActivity" />
+        <activity android:name=".afterKhaddo" />
+        <activity android:name=".afterTika" />
+        <activity android:name=".afterbeyam" />
+        <activity android:name=".afterSasthoPorikhkha" />
+        <activity android:name=".sisurNam" />
+        <activity android:name=".sisurRasi" />
+        <activity android:name=".proyojoniotoththo" />
+        <activity android:name=".toththochitro" />
+        <activity android:name=".datCare" />
+        <activity android:name=".onlineShopping" />
+        <activity android:name=".Opportuniyty" />
+        <activity android:name=".borjonio" />
+        <activity android:name=".SissorActivity" />
+        <activity android:name=".offRemainder"></activity>
+    </application>
+
+</manifest>

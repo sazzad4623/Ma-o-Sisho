@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nreminder"
+    tools:context="com.prayan_it.nari.Setting">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/remainderBtn"
+        android:id="@+id/remainderBtn"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#00000000"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/remainderdlBtn"
+        android:id="@+id/remainderOffBtn"
+        android:background="#00000000"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:layout_below="@+id/remainderBtn"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
